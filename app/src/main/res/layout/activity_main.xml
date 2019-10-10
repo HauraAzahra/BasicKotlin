@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="20dp"
+    android:layout_gravity="center"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btn_kalkulator"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Kalkulator"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:textColor="@color/white"
+        android:background="@drawable/tampilan"/>
+
+    <Button
+        android:id="@+id/btn_web_view"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="38dp"
+        android:text="WebView"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_kalkulator"
+        android:background="@drawable/tampilan"/>
+
+    <Button
+        android:id="@+id/btn_list_view"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="34dp"
+        android:text="List View"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_web_view"
+        android:background="@drawable/tampilan"/>
+
+    <Button
+        android:id="@+id/btn_spiner"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="37dp"
+        android:text="Spiner"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_list_view"
+        android:background="@drawable/tampilan"/>
+
+    <Button
+        android:id="@+id/btn_grid_view"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="37dp"
+        android:text="GridView"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_spiner"
+        android:background="@drawable/tampilan"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

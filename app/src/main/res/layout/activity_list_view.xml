@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".ListViewActivity"
+    android:layout_margin="20dp"
+    android:layout_gravity="center">
+
+    <Button
+        android:id="@+id/btn_list_biasa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="List Biasa"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        app:layout_constraintTop_toTopOf="parent"
+        android:background="@drawable/tampilan"/>
+
+    <Button
+        android:id="@+id/btn_list_costum"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="56dp"
+        android:layout_marginEnd="3dp"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:text="List Costum"
+        app:layout_constraintEnd_toEndOf="@+id/btn_list_biasa"
+        app:layout_constraintTop_toBottomOf="@+id/btn_list_biasa"
+        android:background="@drawable/tampilan"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

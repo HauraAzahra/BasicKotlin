@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Kotlin Basic</string>
+    <string name="tambah">+</string>
+    <string name="kurang">-</string>
+    <string name="kali">*</string>
+    <string name="bagi">/</string>
+</resources>
